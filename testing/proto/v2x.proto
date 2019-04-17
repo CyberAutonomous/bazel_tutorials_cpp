@@ -1,0 +1,10 @@
+syntax = "proto3",
+
+enum status {
+	UNKNOWN = 0;
+	CONNECTED = 1;
+	DISCONNECTED = 2;
+};
+message V2xStatus {
+	optional status stt = 20; //temporary default value
+}

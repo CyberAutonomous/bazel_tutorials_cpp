@@ -4,3 +4,9 @@ new_http_archive(
 	strip_prefix = "googletest-release-1.8.1",
 	build_file = "third_party/googletest.BUILD"
 )
+
+http_archive(
+	name = "com_google_protobuf",
+    strip_prefix = "protobuf-3.3.0",
+    url = "https://github.com/google/protobuf/releases/download/v3.3.0/protobuf-cpp-3.3.0.tar.gz",
+)
