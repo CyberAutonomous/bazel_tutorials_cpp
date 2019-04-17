@@ -9,5 +9,6 @@ cc_test(
 		],
 	deps = [
 		"@google_test//:google_test_lib",
-		"//libs:calLib"]
+		"//libs:calLib"
+		]
 	)
