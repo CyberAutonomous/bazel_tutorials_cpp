@@ -1,4 +1,4 @@
-syntax = "proto3",
+syntax = "proto3";
 
 enum status {
 	UNKNOWN = 0;
@@ -6,5 +6,5 @@ enum status {
 	DISCONNECTED = 2;
 };
 message V2xStatus {
-	optional status stt = 20; //temporary default value
+	status stt = 20; //temporary default value
 }

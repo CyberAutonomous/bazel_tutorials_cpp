@@ -7,6 +7,5 @@ cc_proto_library(
 
 proto_library(
 	name = "v2x_proto_lib",
-	srcs = ["v2x.proto"],
-	deps = ["@com_google_protobuf//:protoc"]
+	srcs = ["v2x.proto"]
 	)
